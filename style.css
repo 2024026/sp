@@ -37,7 +37,7 @@
 }
 
 .desktop .MENTA-lcare {
-    position: absolute;
+    position: relative;
     top: 10px;
     left: 57px;
     font-family: "Crimson Text-Bold", Helvetica;
@@ -423,7 +423,7 @@
 .desktop .element {
     position: absolute;
     width: 59px;
-    top: 20px;
+    top: -20px;
     left: 0;
     font-family: "Inter-SemiBold", Helvetica;
     font-weight: 600;
@@ -469,7 +469,7 @@
 .desktop .p {
     position: absolute;
     width: 558px;
-    top: 245px;
+    top: 270px;
     left: 0;
     font-family: "Inter-Light", Helvetica;
     font-weight: 300;
@@ -618,7 +618,7 @@
 .desktop .text-wrapper-16 {
     position: absolute;
     width: 333px;
-    top: 27px;
+    top: 18px;
     left: 0;
     font-family: "Roboto-Regular", Helvetica;
     font-weight: 400;
@@ -630,7 +630,7 @@
 
 .desktop .frame-4 {
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 13px;
     position: absolute;
     top: 0;
@@ -742,7 +742,7 @@
 
 .desktop .frame-7 {
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 13px;
     position: absolute;
     top: 0;
